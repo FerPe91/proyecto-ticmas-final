@@ -1,0 +1,226 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #04041a !important;
+}
+
+.nombreApellidoPuesto h2{
+    font-weight: bold;
+    color: transparent; 
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.nombreApellidoPuesto h3{
+    color: aquamarine;
+}
+
+header img{
+    background-color: black;
+}
+nav{
+    background-color: #15102a !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.item{
+    scroll-margin-top: 100ex !important;
+}
+nav .items_nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size:4vh;
+    list-style: none;
+}
+
+
+nav .items_nav li a{
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    color:white;
+    height: 100%;
+    
+}
+nav .items_nav li a:hover{
+    color:#000000;
+    
+}
+.li_nav{
+    transition: all 0.5s ease-in-out;
+    
+}
+.li_nav:hover{
+    background-color: #7b7a7a;
+    
+}
+
+
+.contenedor{
+    display: flex;
+    background-color: #1f1e37;
+    color: bisque;
+}
+
+.cabecera{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.puestoBuscado{
+    border: none;
+    margin-bottom: 10px;
+}
+.nombreApellidoPuesto{
+    margin-left: 100px;
+}
+h2{
+    font-size: 4vh;
+    letter-spacing: 5px;
+}
+
+
+.bloqueIzquierdo{
+    font-size: 4vh;
+    width: 40%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.foto img{
+    height:250px;
+    width:250px;
+    position:static;
+}
+
+h3{
+    margin: 0px 0px 10px;
+    border-bottom: 3px solid black;
+}
+
+.socialMedia{
+    margin-bottom: 50px;
+}
+
+
+#contacto{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgba(195, 172, 172, 0);
+    transition: all 0.5s ease-in-out;
+}
+
+#contacto:hover{
+    color: black;
+    background-color:rgb(195, 172, 172);
+    filter:drop-shadow(2px 2px 3px #000000);
+}
+
+.img-contacto{
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.img-contacto:hover{
+    transform: scale(1.5) rotate(720deg);
+    margin-right: 10px;
+}
+
+
+.socialMedia ul{
+    margin-top: 20px;
+}
+
+.socialMedia ul li{
+    font-size: 1.5vh;
+    margin-bottom: 50px;
+}
+
+.social{
+    transition: all 0.5s ease-in-out;
+    
+}
+.social:hover{
+    transform: scale(1) rotate(720deg);
+}
+
+.quienSoy{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.habilidades{
+    margin-bottom: 10px;
+}
+
+.nombresHabilidades{
+    font-size: 4vh;
+}
+.itemsHabilidades{
+    font-size: 4vhpx;
+    display: flex;
+}
+
+.estrellas{
+    list-style: none;
+    margin-top: 25px;
+    margin: 0px 0px 10px;
+    position: relative;
+}
+
+.estrellas li{
+    filter:drop-shadow(1px 1px 3px #484848);
+}
+
+
+.idiomas ul,ul{
+    margin: 0px 0px 10px;
+}
+
+
+.bloqueDerecho{
+    font-size: 3.6vh;
+    width: 60%;
+    margin: 15px;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px 0px 10px;
+}
+.experiencia{
+    margin: 0px 0px 10px;
+}
+
+.detalles{
+    display: flex;
+    margin-top: 20px;
+}
+
+.desdeHasta p{
+    font-size:3.6vh;
+    color:gray;
+    margin: 0px 0px 0px;
+}
+
+.empresa, .desdeHasta, h4,h5{
+    margin: 0px 0px 0px 10px;
+}
+.tareaRealizada{
+    color: bisque;
+    margin: 0px 0px 40px 10px;
+    text-align: justify;
+}
+
+.universidad{
+    margin: 0px 0px 40px 10px;
+    color:gray
+}
