@@ -102,13 +102,12 @@ h2{
 
 h3{
     margin: 0px 0px 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(249, 249, 249);
 }
 
 .socialMedia{
     margin-bottom: 50px;
 }
-
 
 #contacto{
     width: fit-content;
